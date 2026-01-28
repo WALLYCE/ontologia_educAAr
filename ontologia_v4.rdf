@@ -1,0 +1,918 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40/"
+     xml:base="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DesempenhoTurmaReferenteATurma -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DesempenhoTurmaReferenteATurma">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DesempenhoTurma"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Turma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DisciplinaPertenceAoDepartamento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DisciplinaPertenceAoDepartamento">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Disciplina"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Departamento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteEdoMunicipio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteEdoMunicipio">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Municipio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteFrequentouTurma -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteFrequentouTurma">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Turma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteObteveDesempenhoTurma -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteObteveDesempenhoTurma">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DesempenhoTurma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteOcupaVagaProjeto -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteOcupaVagaProjeto">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaProjeto"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemEtnia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemEtnia">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Etnia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemGenero -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemGenero">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Genero"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemMetodoIngresso -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemMetodoIngresso">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#MetodoIngresso"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemSituacao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemSituacao">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Situacao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemTipoCota -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemTipoCota">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemTipoMetodoIngresso -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#EstudanteTemTipoMetodoIngresso">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#ProjetoPertenceABolsa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#ProjetoPertenceABolsa">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Projeto"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Bolsa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#TurmaPertenceADisciplina -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#TurmaPertenceADisciplina">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Turma"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Disciplina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaProjetoReferenteProjeto -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaProjetoReferenteProjeto">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaProjeto"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Projeto"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#UF -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#UF">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Municipio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#anoCancelamento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#anoCancelamento">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Cancelado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#anoFormatura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#anoFormatura">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Concluido"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#anoIngresso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#anoIngresso">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#anoTrancamento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#anoTrancamento">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Trancado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#anoTurma -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#anoTurma">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#creditoDisciplina -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#creditoDisciplina">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Disciplina"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#dataDeNascimento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#dataDeNascimento">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#dataFimTurma -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#dataFimTurma">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Turma"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#dataFimVagaProjeto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#dataFimVagaProjeto">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaProjeto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#dataInicioTurma -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#dataInicioTurma">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Turma"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#dataInicioVagaProjeto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#dataInicioVagaProjeto">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaProjeto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#descricaoBolsa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#descricaoBolsa">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Bolsa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#descricaoProjeto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#descricaoProjeto">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Projeto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#grupoCotista -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#grupoCotista">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#grupoNaoCotista -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#grupoNaoCotista">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#metodoIngresso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#metodoIngresso">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#OutrosMetodosIngresso"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Pism"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Sisu"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Vestibular"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#modalidadeBolsa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#modalidadeBolsa">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Bolsa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#motivoCancelado -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#motivoCancelado">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Cancelado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#notaIngresso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#notaIngresso">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#OutrosMetodosIngresso"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Pism"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Sisu"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Vestibular"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#notaOutros -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#notaOutros">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#OutrosMetodosIngresso"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#notaPISM -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#notaPISM">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Pism"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#notaSISU -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#notaSISU">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Sisu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#notaVestibular -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#notaVestibular">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Vestibular"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#outraSituacao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#outraSituacao">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#OutrasSituacoes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#periodoAluno -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#periodoAluno">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DesempenhoTurma"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#remunerada -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#remunerada">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Bolsa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#rendimentoAcademico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#rendimentoAcademico">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#semestreCancelamento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#semestreCancelamento">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Cancelado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#semestreFormatura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#semestreFormatura">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Concluido"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#semestreIngresso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#semestreIngresso">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#semestreTrancamento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#semestreTrancamento">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Trancado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#semestreTurma -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#semestreTurma">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Turma"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#situacaoDesempenho -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#situacaoDesempenho">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DesempenhoTurma"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoIngresso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoIngresso">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#valorDesempenho -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#valorDesempenho">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DesempenhoTurma"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Ativo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Ativo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Situacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Bolsa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Bolsa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Cancelado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Cancelado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Situacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Concluido -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Concluido">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Situacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Demanda_Social -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Demanda_Social">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Departamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Departamento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DesempenhoTurma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DesempenhoTurma"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Disciplina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Disciplina"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Etnia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Etnia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Feminino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Feminino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Genero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Genero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Genero"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoA1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoA1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoA_antigo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoA_antigo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoB1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoB1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoB_antigo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoB_antigo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoC_antigo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoC_antigo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoD1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoD1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoF">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoJ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#GrupoJ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Masculino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Masculino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Genero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#MetodoIngresso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#MetodoIngresso"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Municipio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Municipio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#OutrasSituacoes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#OutrasSituacoes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Situacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#OutrosMetodosIngresso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#OutrosMetodosIngresso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#MetodoIngresso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Outros_Generos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Outros_Generos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Genero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#PARFOR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#PARFOR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Pism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Pism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#MetodoIngresso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Projeto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Projeto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Sisu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Sisu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#MetodoIngresso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Situacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Situacao"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Trancado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Trancado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Situacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Turma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Turma"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaOciosa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaOciosa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaProjeto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaProjeto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Vestibular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Vestibular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#MetodoIngresso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Bolsa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Departamento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#DesempenhoTurma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Disciplina"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Estudante"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Etnia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Genero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#MetodoIngresso"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Municipio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Projeto"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Situacao"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#Turma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#VagaProjeto"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jo_az/ontologies/2024/7/untitled-ontology-40#tipoCota"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
